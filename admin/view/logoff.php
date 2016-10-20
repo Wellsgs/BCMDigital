@@ -1,0 +1,14 @@
+<?php   
+    session_start();
+	unset($_SESSION['fid']);
+	unset($_SESSION['fcargo']);
+	unset($_SESSION['fnome']);
+	unset($_SESSION['ftoken']);
+	unset($_SESSION['ftoken_estabelecimento']);
+	unset($_SESSION['donoSessao']);
+	unset($_SESSION['sessao_l']);
+	unset($_SESSION['sessao_s']);
+	session_destroy();
+	header("Location:login.php");
+	exit;
+?>
