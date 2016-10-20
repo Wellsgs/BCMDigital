@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^bcmdigital\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bcmdigital\.com\.br$
+RewriteRule ^/?$ "http\:\/\/beachclassmagazine\.com\.br\/" [R=301,L]
+
