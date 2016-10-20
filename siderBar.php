@@ -1,5 +1,4 @@
 <?php
-echo "foi";
 
         $sql_maisVistos = "SELECT art.id, art.ds_titulo, seg.nm_segmento, art.dt_artigo, art.nr_visualizacoes "
                         . "FROM artigos as art "
